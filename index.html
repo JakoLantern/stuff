@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body class="p-0">
+    <section id="intro" class="bg-gray-950 md:grid-cols-2">
+        <div class="thangs container h-[100svh] w-full flex items-center justify-center flex-col">
+            <div class="developerName">
+                <h1 class="font-rocksalt text-5xl text-white mb-5 text-center">Joshua Jakosalem</h1>
+            </div>
+
+            <div class="catchphrase mb-20">
+                <h1 class="font-manrope text-base text-white tracking-widest text-center">I'M FUN I PROMISE</h1>
+                <h1 class="font-manrope text-base text-white tracking-widest text-center">2ND YEAR IT STUDENT</h1>
+            </div>
+
+            <div class="button">
+                <a href="#profile">
+                    <button class="text-white font-manrope border rounded border-white pr-10 pl-10 pb-2 pt-2 hover:bg-white hover:text-gray-950">
+                        PROFILE
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="profile" class="p-44 pt-36 pb-[34]">
+        <h1 class="font-manrope text-5xl font-bold pb-14">ABOUT ME</h1>
+        <div class="flex gap-x-10 items-center">
+            <img src="./jako.jpg" alt="me" class="object-fil h-[450px] w-[335px]">
+
+            <div class="flex flex-col gap-y-9">
+                <p class="content-center font-manrope text-lg shrink w-20;">I'm a university student in the care of the University of Cebu - Banilad Campus.
+                    I am an aspiring front-end web developer. Currently learning HTML5, React, Node.js, Tailwind, and JavaScript. 
+                </p>
+    
+                <div class="button">
+                    <a href="#profile">
+                        <button class="text-gray-950 font-manrope border rounded border-gray-950 pr-10 pl-10 pb-2 pt-2 hover:bg-gray-950  hover:text-white">
+                            PORTFOLIO
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="inquiries" class="bg-gray-950 p-44 pt-20 pb-28">
+        <h1 class="font-manrope text-5xl font-bold pb-14 text-white">CONTACT ME</h1>
+
+        <div> 
+            <form action="#" id="contactMe">
+                <div class="input">
+                    <p class="text-white font-manrope mb-3 text-lg font-semibold">NAME: </p>
+                    <input type="text" class="mb-5 w-[50%] p-2" placeholder="Name">
+                </div>
+
+                <div class="input">
+                    <p class="text-white font-manrope mb-3 text-lg font-semibold">EMAIL: </p>
+                    <input type="email" class="mb-5 w-[50%] p-2" placeholder="Email">
+                </div>
+
+                <div class="input">
+                    <p class="text-white font-manrope mb-3 text-lg font-semibold">MESSAGE: </p>
+                    <textarea name="message" id="" cols="90" rows="10" ></textarea>
+                </div>
+
+                <div class="button">
+                    <a href="#">
+                        <button class="text-white font-manrope border rounded border-white mt-10 pr-10 pl-10 pb-2 pt-2 hover:bg-white hover:text-gray-950">
+                            Submit
+                        </button>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
